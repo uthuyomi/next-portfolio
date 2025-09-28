@@ -1,0 +1,83 @@
+{
+  "about": {
+    "title": "About",
+    "image": "/images/profile.png",
+    "name": "安崎 海星",
+    "description": [
+      "ここに自己紹介文が入ります。ここに自己紹介文が入ります。",
+      "ここに自己紹介文が入ります。ここに自己紹介文が入ります。"
+    ],
+    "social": [
+      { "label": "X", "url": "/images/Xicon.svg" },
+      { "label": "Instagram", "url": "/images/instaicon.svg" }
+    ]
+  },
+  "service": {
+    "title": "Service",
+    "items": [
+      {
+        "title": "LPコーディング1",
+        "description": "ここにサービス説明文が入ります。ここにサービス説明文が入ります。ここにサービス説明文が入ります。"
+      },
+      {
+        "title": "LPコーディング2",
+        "description": "ここにサービス説明文が入ります。ここにサービス説明文が入ります。ここにサービス説明文が入ります。"
+      },
+      {
+        "title": "LPコーディング3",
+        "description": "ここにサービス説明文が入ります。ここにサービス説明文が入ります。ここにサービス説明文が入ります。"
+      }
+    ]
+  },
+  "skills": {
+    "title": "SKILL",
+    "items": [
+      {
+        "icon": "/images/skill-icon/html.png",
+        "title": "HTML/CSS",
+        "description": "スマホで見ても表示崩れのないレスポンシブ対応も可能です。"
+      },
+      {
+        "icon": "/images/skill-icon/css.png",
+        "title": "HTML/CSS",
+        "description": "スマホで見ても表示崩れのないレスポンシブ対応も可能です。"
+      },
+      
+      {
+        "icon": "/images/skill-icon/js.png",
+        "title": "JavaScript",
+        "description": "お問い合わせフォームや自動スクロールなど動きのあるWebサイトを作る事が可能です。"
+      },
+      {
+        "icon": "/images/skill-icon/next.png",
+        "title": "Adobe Photoshop",
+        "description": "Webサイトに必要不可欠なクリエイティブバナーを作ることが可能です。"
+      },
+      {
+        "icon": "/images/skill-icon/typescript.png",
+        "title": "jQuery",
+        "description": "Webサイトにフェードイン・フェードアウトなどリッチな動きをつけることが可能です。"
+      },
+      {
+        "icon": "/images/skill-icon/php.png",
+        "title": "Adobe XD",
+        "description": "Webサイトのデザインやワイヤーフレームを作ることが可能です。"
+      },
+      {
+        "icon": "/images/skill-icon/wordpress.png",
+        "title": "WordPress",
+        "description": "WordPress製の店舗HP・企業HP・メディアサイトなど、Webサイトをのち編集することが可能です。"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "form": {
+      "name": "名前",
+      "furigana": "フリガナ",
+      "email": "メールアドレス",
+      "message": "お問い合わせ内容",
+      "submit": "送信"
+    }
+  }
+}
