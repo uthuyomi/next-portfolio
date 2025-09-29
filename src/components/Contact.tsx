@@ -42,6 +42,7 @@ const Contact = () => {
             className="w-full bg-gray-300 rounded px-3 py-2 outline-none resize-none"
           />
         </div>
+        <p>※いたずらメール防止のためにIPアドレスを取得しています。</p>
         <button
           type="submit"
           className="bg-gray-300 text-black px-6 py-1 rounded mt-2 hover:bg-gray-400 transition"

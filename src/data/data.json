@@ -34,33 +34,37 @@
     "items": [
       {
         "icon": "/images/skill-icon/html.png",
-        "title": "HTML/CSS",
+        "title": "HTML",
         "description": "スマホで見ても表示崩れのないレスポンシブ対応も可能です。"
       },
       {
         "icon": "/images/skill-icon/css.png",
-        "title": "HTML/CSS",
+        "title": "CSS",
         "description": "スマホで見ても表示崩れのないレスポンシブ対応も可能です。"
       },
-      
       {
         "icon": "/images/skill-icon/js.png",
         "title": "JavaScript",
-        "description": "お問い合わせフォームや自動スクロールなど動きのあるWebサイトを作る事が可能です。"
+        "description":"ォームや自動スクロールなど動きのあるWebサイトを作る事が可能です。"
+      },
+      {
+        "icon": "/images/skill-icon/react.png",
+        "title": "React.js",
+        "description":"Next.jsォームや自動スクロールなど動きのあるWebサイトを作る事が可能です。"
       },
       {
         "icon": "/images/skill-icon/next.png",
-        "title": "Adobe Photoshop",
+        "title": "Next.js",
         "description": "Webサイトに必要不可欠なクリエイティブバナーを作ることが可能です。"
       },
       {
         "icon": "/images/skill-icon/typescript.png",
-        "title": "jQuery",
+        "title": "Typescript",
         "description": "Webサイトにフェードイン・フェードアウトなどリッチな動きをつけることが可能です。"
       },
       {
         "icon": "/images/skill-icon/php.png",
-        "title": "Adobe XD",
+        "title": "PHP",
         "description": "Webサイトのデザインやワイヤーフレームを作ることが可能です。"
       },
       {

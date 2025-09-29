@@ -9,7 +9,7 @@ const Hero = () => {
       <h2 className="text-white text-2xl font-semibold mb-2 border-b border-white pb-1">
         {base.title}
       </h2>
-      <div className="flex flex-col md:flex-row items-center mt-6 max-w-2xl w-full px-4">
+      <div className="flex flex-col md:flex-row items-center justify-center mt-6 max-w-2xl w-full px-4">
         <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-8">
           <Image
             src={base.image}
