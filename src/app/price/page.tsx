@@ -9,6 +9,8 @@ export default function Home() {
       <div className="bg-[#1e293b] py-12 flex flex-col items-center">
         <Table data={data.price1} />
         <Table data={data.price2} />
+        <Table data={data.price3} />
+        <Table data={data.price4} />
       </div>
     </main>
   );

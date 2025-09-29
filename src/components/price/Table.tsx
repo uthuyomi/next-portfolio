@@ -11,8 +11,10 @@ type tableProps = {
 const table = ({data}: tableProps) => {
   return (
     <>
-      <h3>{data.title}</h3>
-      <table className="w-3xl border border-black bg-blue-100">
+      <h3 className="text-white text-2xl font-semibold mb-2 pt-7 pb-5">
+        {data.title}
+      </h3>
+      <table className="w-2xl border border-black bg-blue-100">
         <thead>
           <tr>
             {data.header.map((item, i) => (
