@@ -16,7 +16,7 @@ type slideProps = {
 
 const Slide = ({ data }: slideProps) => {
   return (
-    <Swiper className="w-sm aspect-[1920/1280] bg-amber-50 ">
+    <Swiper className="w-sm aspect-[1920/1280] bg-amber-50 mt-7">
       <SwiperSlide className={`${style["slide-pc"]} bg-cover bg-center`}>
         <Image
           className={style.slideOuter}
