@@ -1,26 +1,38 @@
 {
   "slide01": {
-    "pcimg": [
-      "/images/works/portfolio/inner-img00-pc.png",
-      "/images/works/portfolio/inner-img01-pc.png",
-      "/images/works/portfolio/inner-img02-pc.png",
-      "/images/works/portfolio/inner-img03-pc.png",
-      "/images/works/portfolio/inner-img04-pc.png",
-      "/images/works/portfolio/inner-img05-pc.png",
-      "/images/works/portfolio/inner-img06-pc.png",
-      "/images/works/portfolio/inner-img07-pc.png",
-      "/images/works/portfolio/inner-img08-pc.png"
-    ],
-    "spimg": [
-      "/images/works/portfolio/inner-img00-sp.png",
-      "/images/works/portfolio/inner-img01-sp.png",
-      "/images/works/portfolio/inner-img02-sp.png",
-      "/images/works/portfolio/inner-img03-sp.png",
-      "/images/works/portfolio/inner-img04-sp.png",
-      "/images/works/portfolio/inner-img05-sp.png",
-      "/images/works/portfolio/inner-img06-sp.png",
-      "/images/works/portfolio/inner-img07-sp.png",
-      "/images/works/portfolio/inner-img08-sp.png"
-    ]
+    "pcimg": ["/images/works/portfolio/inner-img00-pc.png"],
+    "spimg": ["/images/works/portfolio/inner-img00-sp.png"]
+  },
+  "slide02": {
+    "pcimg": ["/images/works/portfolio/inner-img01-pc.png"],
+    "spimg": ["/images/works/portfolio/inner-img01-sp.png"]
+  },
+  "slide03": {
+    "pcimg": ["/images/works/portfolio/inner-img02-pc.png"],
+    "spimg": ["/images/works/portfolio/inner-img02-sp.png"]
+  },
+  "slide04": {
+    "pcimg": ["/images/works/portfolio/inner-img03-pc.png"],
+    "spimg": ["/images/works/portfolio/inner-img03-sp.png"]
+  },
+  "slide05": {
+    "pcimg": ["/images/works/portfolio/inner-img04-pc.png"],
+    "spimg": ["/images/works/portfolio/inner-img04-sp.png"]
+  },
+  "slide06": {
+    "pcimg": ["/images/works/portfolio/inner-img05-pc.png"],
+    "spimg": ["/images/works/portfolio/inner-img05-sp.png"]
+  },
+  "slide07": {
+    "pcimg": ["/images/works/portfolio/inner-img06-pc.png"],
+    "spimg": ["/images/works/portfolio/inner-img06-sp.png"]
+  },
+  "slide08": {
+    "pcimg": ["/images/works/portfolio/inner-img07-pc.png"],
+    "spimg": ["/images/works/portfolio/inner-img07-sp.png"]
+  },
+  "slide09": {
+    "pcimg": ["/images/works/portfolio/inner-img08-pc.png"],
+    "spimg": ["/images/works/portfolio/inner-img08-sp.png"]
   }
 }
