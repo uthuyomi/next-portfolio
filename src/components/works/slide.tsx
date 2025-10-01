@@ -20,58 +20,59 @@ type slideProps = {
 
 const Slide = ({ data }: slideProps) => {
   return (
-    <>
-    <Swiper
-      modules={[Navigation, Pagination]} // ← モジュールを登録
-      navigation
-      pagination={{ clickable: true }} // ← ドット有効化
-      className="w-sm aspect-[1920/1280] bg-amber-50 mt-7"
-    >
-      <SwiperSlide className={`${style["slide-pc"]} bg-cover bg-center`}>
-        <Image
-          className={style.slideOuter}
-          src={pcOuter}
-          alt="背景画像"
-          width={100}
-          height={100}
-        />
-        <div className={style.slideInner}>
+    <div className={`${style["slide"]} relative mt-6`}>
+      <Swiper
+        modules={[Navigation, Pagination]} // ← モジュールを登録
+        navigation
+        pagination={{ clickable: true }} // ← ドット有効化
+        className="absolute top-0 w-sm aspect-[1920/1280] bg-amber-50"
+      >
+        <SwiperSlide className={`${style["slide-pc"]} bg-cover bg-center`}>
           <Image
-            src={data.pcimg}
-            alt="pc画像"
-            width={1920}
-            height={1280}
-            unoptimized
+            className={style.slideOuter}
+            src={pcOuter}
+            alt="背景画像"
+            width={100}
+            height={100}
           />
-        </div>
-      </SwiperSlide>
-      <SwiperSlide className={`${style["slide-sp"]} bg-cover bg-center`}>
-        <Image
-          className={style.slideOuter}
-          src={spOuter}
-          alt="背景画像"
-          width={100}
-          height={100}
-        />
-        <div className={style.slideInner}>
+          <div className={style.slideInner}>
+            <Image
+              src={data.pcimg}
+              alt="pc画像"
+              width={1920}
+              height={1280}
+              unoptimized
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className={`${style["slide-sp"]} bg-cover bg-center`}>
           <Image
-            src={data.spimg}
-            alt="pc画像"
-            width={1920}
-            height={1280}
-            unoptimized
+            className={style.slideOuter}
+            src={spOuter}
+            alt="背景画像"
+            width={100}
+            height={100}
           />
-        </div>
-      </SwiperSlide>
-    </Swiper>
-      <div>
-        <ul>
+          <div className={style.slideInner}>
+            <Image
+              src={data.spimg}
+              alt="pc画像"
+              width={1920}
+              height={1280}
+              unoptimized
+            />
+          </div>
+        </SwiperSlide>
+      </Swiper>
+      <div className={`${style["slideText"]} absolute top-0 w-sm aspect-[1920/1280] text-white border-white border`}>
+        <ul className="flex flex-wrap h-full items-center content-center">
+          <li className="p-1">スキルセット</li>
           {data.skill.map((item, i) => (
-            <li key={i}>{item}</li>
+            <li key={i} className="p-1">{item}</li>
           ))}
         </ul>
       </div>
-      </>
+    </div>
   );
 };
 
