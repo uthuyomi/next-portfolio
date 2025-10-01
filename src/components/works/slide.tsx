@@ -14,11 +14,13 @@ type slideProps = {
   data: {
     pcimg: string;
     spimg: string;
+    skill: string[];
   };
 };
 
 const Slide = ({ data }: slideProps) => {
   return (
+    <>
     <Swiper
       modules={[Navigation, Pagination]} // ← モジュールを登録
       navigation
@@ -62,6 +64,14 @@ const Slide = ({ data }: slideProps) => {
         </div>
       </SwiperSlide>
     </Swiper>
+      <div>
+        <ul>
+          {data.skill.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+      </div>
+      </>
   );
 };
 
