@@ -11,6 +11,12 @@ export default function Home() {
       <div className="bg-[#1e293b] py-12 flex flex-col items-center">
         <Slide data={base.slide01} />
         <Slide data={base.slide02} />
+        <Slide data={base.slide03} />
+        <Slide data={base.slide04} />
+        <Slide data={base.slide05} />
+        <Slide data={base.slide06} />
+        <Slide data={base.slide07} />
+        <Slide data={base.slide08} />
       </div>
     </main>
   );

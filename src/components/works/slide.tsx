@@ -1,6 +1,9 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import style from "./slide.module.scss";
 import Image from "next/image";
 import React from "react";
@@ -16,7 +19,12 @@ type slideProps = {
 
 const Slide = ({ data }: slideProps) => {
   return (
-    <Swiper className="w-sm aspect-[1920/1280] bg-amber-50 mt-7">
+    <Swiper
+      modules={[Navigation, Pagination]} // ← モジュールを登録
+      navigation
+      pagination={{ clickable: true }} // ← ドット有効化
+      className="w-sm aspect-[1920/1280] bg-amber-50 mt-7"
+    >
       <SwiperSlide className={`${style["slide-pc"]} bg-cover bg-center`}>
         <Image
           className={style.slideOuter}
@@ -26,7 +34,13 @@ const Slide = ({ data }: slideProps) => {
           height={100}
         />
         <div className={style.slideInner}>
-          <Image src={data.pcimg} alt="pc画像" width={1920} height={1280} unoptimized/>
+          <Image
+            src={data.pcimg}
+            alt="pc画像"
+            width={1920}
+            height={1280}
+            unoptimized
+          />
         </div>
       </SwiperSlide>
       <SwiperSlide className={`${style["slide-sp"]} bg-cover bg-center`}>
@@ -38,7 +52,13 @@ const Slide = ({ data }: slideProps) => {
           height={100}
         />
         <div className={style.slideInner}>
-          <Image src={data.spimg} alt="pc画像" width={1920} height={1280} unoptimized/>
+          <Image
+            src={data.spimg}
+            alt="pc画像"
+            width={1920}
+            height={1280}
+            unoptimized
+          />
         </div>
       </SwiperSlide>
     </Swiper>
