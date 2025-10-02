@@ -20,7 +20,7 @@ type slideProps = {
 
 const Slide = ({ data }: slideProps) => {
   return (
-    <div className={`${style["slide"]} relative mt-6`}>
+    <div className={`${style["slide-left"]} relative mt-20`}>
       <Swiper
         modules={[Navigation, Pagination]} // ← モジュールを登録
         navigation

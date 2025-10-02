@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "@/components/Hero";
-import Slide from "@/components/works/Slide";
+import SlideL from "@/components/works/Slide-left";
+import SlideR from "@/components/works/Slide-right";
 import data from "@/data/worksdata.json";
 
 export default function Home() {
@@ -9,14 +10,12 @@ export default function Home() {
     <main>
       <Hero />
       <div className="bg-[#1e293b] py-12 flex flex-col items-center">
-        <Slide data={base.slide01} />
-        <Slide data={base.slide02} />
-        <Slide data={base.slide03} />
-        <Slide data={base.slide04} />
-        <Slide data={base.slide05} />
-        <Slide data={base.slide06} />
-        <Slide data={base.slide07} />
-        <Slide data={base.slide08} />
+        <SlideL data={base.slide01} />
+        <SlideR data={base.slide02} />
+        <SlideL data={base.slide03} />
+        <SlideR data={base.slide04} />
+        <SlideL data={base.slide05} />
+        <SlideR data={base.slide06} />
       </div>
     </main>
   );
