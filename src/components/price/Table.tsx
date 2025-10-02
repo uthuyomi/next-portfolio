@@ -1,11 +1,9 @@
 import React from 'react';
 
 type tableProps = {
-  data: {
     title: string;
     header: string[];
     rows: string[][];
-  };
 };
 
 const table = ({data}: tableProps) => {

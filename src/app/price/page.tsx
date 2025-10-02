@@ -1,17 +1,20 @@
 import Hero from "@/components/Hero";
 import Table from "@/components/price/Table";
 import data from "@/data/pricedata.json";
+import Particle from "@/components/common/Particles";
 
 export default function Home() {
+  const price: Record<string, tableProps> = data;
   return (
-    <main>
-      <Hero />
-      <div className="bg-[#1e293b] py-12 flex flex-col items-center">
-        <Table data={data.price1} />
-        <Table data={data.price2} />
-        <Table data={data.price3} />
-        <Table data={data.price4} />
+    <>
+    <Particle/>
+    <main className="relative z-20">
+      <div className="py-12 flex flex-col items-center">
+        {Object.entries(price).map(([key, item], i) => (
+          <Table key={key} data={item} />
+        ))}
       </div>
-    </main>
+      </main>
+    </>
   );
 }
