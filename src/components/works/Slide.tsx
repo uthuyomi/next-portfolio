@@ -10,7 +10,7 @@ import React from "react";
 import pcOuter from "../../../public/images/works/pc-back.png";
 import spOuter from "../../../public/images/works/sp-back.png";
 
-type slideProps = {
+type SlideItem = {
   data: {
     pcimg: string;
     spimg: string;
@@ -18,9 +18,14 @@ type slideProps = {
   };
 };
 
-const Slide = ({ data }: slideProps) => {
+type SlideProps = {
+  dat: SlideItem;
+  align?: "left" | "right";
+}
+
+const Slide = ({ data, align = "left" }: SlideProps) => {
   return (
-    <div className={`${style["slide-left"]} relative mt-20`}>
+    <div className={`${style[`slide-${align}`]} relative mt-20`}>
       <Swiper
         modules={[Navigation, Pagination]} // ← モジュールを登録
         navigation
@@ -64,11 +69,15 @@ const Slide = ({ data }: slideProps) => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className={`${style["slideText"]} absolute top-0 w-sm aspect-[1920/1280] text-white border-white border`}>
+      <div
+        className={`${style["slideText"]} absolute top-0 w-sm aspect-[1920/1280] text-white border-white border`}
+      >
         <ul className="flex flex-wrap h-full items-center content-center">
           <li className="p-1">スキルセット</li>
           {data.skill.map((item, i) => (
-            <li key={i} className="p-1">{item}</li>
+            <li key={i} className="p-1">
+              {item}
+            </li>
           ))}
         </ul>
       </div>
