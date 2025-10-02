@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <div className="bg-[#1e293b] py-12 flex flex-col items-center">
+      <div className="bg-[#1e293b] py-12 flex flex-col items-center -mt-20">
         <SlideL data={base.slide01} />
         <SlideR data={base.slide02} />
         <SlideL data={base.slide03} />
