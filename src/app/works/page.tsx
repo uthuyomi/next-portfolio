@@ -5,7 +5,7 @@ import SlideR from "@/components/works/Slide-right";
 import data from "@/data/worksdata.json";
 
 export default function Home() {
-  const base = data;
+  const works: Record<string, SLideItem>
   return (
     <main>
       <Hero />

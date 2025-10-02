@@ -10,7 +10,7 @@ import React from "react";
 import pcOuter from "../../../public/images/works/pc-back.png";
 import spOuter from "../../../public/images/works/sp-back.png";
 
-type slideProps = {
+type SlideItem = {
   data: {
     pcimg: string;
     spimg: string;
@@ -18,9 +18,14 @@ type slideProps = {
   };
 };
 
+type SlideProps = {
+  dat: SlideItem;
+  align?: "left" | "right";
+}
+
 const Slide = ({ data }: slideProps) => {
   return (
-    <div className={`${style["slide-right"]} relative mt-20`}>
+    <div className={`${style['']} relative mt-20`}>
       <Swiper
         modules={[Navigation, Pagination]} // ← モジュールを登録
         navigation
