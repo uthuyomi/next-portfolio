@@ -5,8 +5,8 @@ import data from '../data/data.json';
 const Skills = () => {
   const base = data.skills;
   return (
-    <section className=" py-16 flex flex-col items-center">
-      <h2 className="text-white text-2xl font-semibold mb-2 border-b border-white pb-1 mb-10">
+    <section className="max-w-2xl py-16 flex flex-col items-center m-auto">
+      <h2 className="text-white text-2xl font-semibold border-b border-white pb-1 mb-10">
         {base.title}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 max-w-3xl w-full">

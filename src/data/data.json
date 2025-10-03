@@ -8,8 +8,9 @@
       "ここに自己紹介文が入ります。ここに自己紹介文が入ります。"
     ],
     "social": [
-      { "label": "X", "url": "/images/Xicon.svg" },
-      { "label": "Instagram", "url": "/images/instaicon.svg" }
+      { "label": "X", "url": "/images/home/Xicon.svg" },
+      { "label": "Instagram", "url": "/images/home/instaicon.svg" },
+      { "label": "linkedin", "url": "/images/home/linkedin.png" }
     ]
   },
   "service": {
@@ -45,12 +46,12 @@
       {
         "icon": "/images/skill-icon/js.png",
         "title": "JavaScript",
-        "description":"ォームや自動スクロールなど動きのあるWebサイトを作る事が可能です。"
+        "description": "ォームや自動スクロールなど動きのあるWebサイトを作る事が可能です。"
       },
       {
         "icon": "/images/skill-icon/react.png",
         "title": "React.js",
-        "description":"Next.jsォームや自動スクロールなど動きのあるWebサイトを作る事が可能です。"
+        "description": "Next.jsォームや自動スクロールなど動きのあるWebサイトを作る事が可能です。"
       },
       {
         "icon": "/images/skill-icon/next.png",

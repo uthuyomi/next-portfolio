@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Particle />
-      <main className="relative z-20">
+      <main className="relative z-20 pl-5 pr-5">
         <Hero />
         <Skills />
         <Contact />

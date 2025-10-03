@@ -7,13 +7,13 @@ export default function Home() {
   const price: Record<string, tableProps> = data;
   return (
     <>
-    <Particle/>
-    <main className="relative z-20">
-      <div className="py-12 flex flex-col items-center">
-        {Object.entries(price).map(([key, item], i) => (
-          <Table key={key} data={item} />
-        ))}
-      </div>
+      <Particle />
+      <main className="relative z-20 pl-5 pr-5">
+        <div className="py-12 flex flex-col items-center">
+          {Object.entries(price).map(([key, item], i) => (
+            <Table key={key} data={item} />
+          ))}
+        </div>
       </main>
     </>
   );
