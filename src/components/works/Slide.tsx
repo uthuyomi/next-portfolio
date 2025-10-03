@@ -30,7 +30,7 @@ const Slide = ({ data, align = "left" }: SlideProps) => {
         modules={[Navigation, Pagination]} // ← モジュールを登録
         navigation
         pagination={{ clickable: true }} // ← ドット有効化
-        className="absolute top-0 w-sm aspect-[1920/1280] bg-amber-50"
+        className="absolute top-0 w-lg aspect-[1920/1280] bg-amber-50"
       >
         <SwiperSlide className={`${style["slide-pc"]} bg-cover bg-center`}>
           <Image
@@ -70,7 +70,7 @@ const Slide = ({ data, align = "left" }: SlideProps) => {
         </SwiperSlide>
       </Swiper>
       <div
-        className={`${style["slideText"]} absolute top-0 w-sm aspect-[1920/1280] text-white border-white border`}
+        className={`${style["slideText"]} absolute top-0 w-lg aspect-[1920/1280] text-white border-white border`}
       >
         <ul className="flex flex-wrap h-full items-center content-center">
           <li className="p-1">スキルセット</li>
