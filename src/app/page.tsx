@@ -11,7 +11,6 @@ export default function Home() {
       <Particle />
       <main className="relative z-20">
         <Hero />
-        <Service />
         <Skills />
         <Contact />
       </main>
