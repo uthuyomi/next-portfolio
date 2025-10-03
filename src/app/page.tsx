@@ -3,14 +3,18 @@ import Hero from "@/components/Hero";
 import Service from "@/components/Service";
 import Contact from "@/components/Contact";
 import Skills from "@/components/Skills";
+import Particle from "@/components/common/Particles";
 
 export default function Home() {
   return (
-    <main>
-      <Hero />
-      <Service />
-      <Skills />
-      <Contact />
-    </main>
+    <>
+      <Particle />
+      <main className="relative z-20">
+        <Hero />
+        <Service />
+        <Skills />
+        <Contact />
+      </main>
+    </>
   );
 }

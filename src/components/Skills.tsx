@@ -5,7 +5,7 @@ import data from '../data/data.json';
 const Skills = () => {
   const base = data.skills;
   return (
-    <section className="bg-white py-16 flex flex-col items-center">
+    <section className=" py-16 flex flex-col items-center">
       <h2 className="text-3xl font-bold text-gray-800 mb-10 tracking-widest">
         {base.title}
       </h2>

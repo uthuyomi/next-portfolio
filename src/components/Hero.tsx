@@ -5,7 +5,7 @@ import data from '../data/data.json';
 const Hero = () => {
   const base = data.about;
   return (
-    <section className="bg-[#1e293b] py-12 flex flex-col items-center">
+    <section className=" py-12 flex flex-col items-center">
       <h2 className="text-white text-2xl font-semibold mb-2 border-b border-white pb-1">
         {base.title}
       </h2>
