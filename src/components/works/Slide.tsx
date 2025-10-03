@@ -70,7 +70,7 @@ const Slide = ({ data, align = "left" }: SlideProps) => {
         </SwiperSlide>
       </Swiper>
       <div
-        className={`${style["slideText"]} absolute top-0 w-lg aspect-[1920/1280] text-white border-white border`}
+        className={`${style["slideText"]} absolute top-0 w-lg  aspect-[1920/1280] text-white border-white border`}
       >
         <ul className="flex flex-wrap h-full items-center content-center">
           <li className="p-1">スキルセット</li>
