@@ -6,7 +6,7 @@ import style from './Hero.module.scss';
 const Hero = () => {
   const base = data.about;
   return (
-    <section className={`${style.Hero} flex flex-col items-center`}>
+    <section className={`${style.Hero} flex flex-col items-center py-12`}>
       <h2 className="text-white text-2xl font-semibold mb-2 border-b border-white pb-1">
         {base.title}
       </h2>
@@ -39,12 +39,7 @@ const Hero = () => {
                 aria-label={item.label}
                 className="bg-white rounded-full p-2 hover:text-blue-400 text-3xl"
               >
-                <Image
-                  src={item.url}
-                  alt={item.label}
-                  width={32}
-                  height={32}
-                />
+                <Image src={item.url} alt={item.label} width={32} height={32} />
               </a>
             ))}
           </div>

@@ -1,13 +1,12 @@
 import React from 'react'
 import data from '../data/data.json'; 
+import style from './Service.module.scss';
 
 const Service = () => {
   const base = data.service;
-    return (
-      <section
-        id="service"
-        className="max-w-2xl py-12 flex flex-col items-center m-auto"
-      >
+  return (
+    <section
+      className={`${style.Service} w-full py-12 flex flex-col items-center mb-20`}>
         <h2 className="text-white text-2xl font-semibold mb-8">{base.title}</h2>
         <div className="relative flex justify-center w-full max-w-4xl mx-auto">
           {/* 左カラム */}
