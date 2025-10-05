@@ -1,11 +1,12 @@
 import React from 'react'
 import Image from 'next/image';
 import data from '../data/data.json';
+import style from './Hero.module.scss';
 
 const Hero = () => {
   const base = data.about;
   return (
-    <section className=" py-12 flex flex-col items-center">
+    <section className={`${style.Hero} flex flex-col items-center`}>
       <h2 className="text-white text-2xl font-semibold mb-2 border-b border-white pb-1">
         {base.title}
       </h2>
