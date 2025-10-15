@@ -1,5 +1,7 @@
+import { Resend } from "resend";
 import { NextResponse } from "next/server";
-import nodemailer from "nodemailer";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
   const { name, email, message } = await req.json();
@@ -9,19 +11,11 @@ export async function POST(req: Request) {
   }
 
   try {
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.MAIL_USER,
-        pass: process.env.MAIL_PASS,
-      },
-    });
-
-    // あなたへの通知
-    await transporter.sendMail({
-      from: `"ポートフォリオサイト" <${process.env.MAIL_USER}>`,
-      to: process.env.MAIL_USER,
-      subject: `【問い合わせ】${name}さんより`,
+    // 自分宛（通知メール）
+    await resend.emails.send({
+      from: "Portfolio <onboarding@resend.dev>", // 無料でもこの形式OK
+      to: process.env.MAIL_USER!,
+      subject: `【お問い合わせ】${name}さんより`,
       text: `
 【お名前】${name}
 【メール】${email}
@@ -30,9 +24,9 @@ ${message}
       `,
     });
 
-    // 自動返信（日本語）
-    await transporter.sendMail({
-      from: `"ポートフォリオサイト" <${process.env.MAIL_USER}>`,
+    // 相手宛（サンクスメール）
+    await resend.emails.send({
+      from: "Portfolio <onboarding@resend.dev>",
       to: email,
       subject: "お問い合わせありがとうございます",
       text: `
@@ -54,8 +48,8 @@ ${message}
     });
 
     return NextResponse.json({ success: true });
-  } catch (err) {
-    console.error("メール送信エラー:", err);
+  } catch (error) {
+    console.error(error);
     return NextResponse.json({ error: "送信に失敗しました" }, { status: 500 });
   }
 }
