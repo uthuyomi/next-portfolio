@@ -2,15 +2,31 @@ import React from 'react'
 import Image from 'next/image';
 import data from '../data/data.json';
 
-const Skills = () => {
-  const base = data.skills;
+type SkillItem = {
+  icon: string;
+  title: string;
+  description: string;
+};
+
+// "skills" 全体の構造
+type SkillsData = {
+  title: string;
+  items: SkillItem[];
+};
+
+// Props型（親から data を受け取る）
+type SkillsProps = {
+  data: SkillsData;
+};
+
+const Skills = ({data}: SkillsProps) => {
   return (
     <section className="max-w-2xl py-16 mt-12 flex flex-col items-center m-auto">
       <h2 className="text-white text-2xl font-semibold border-b border-white pb-1 mb-10">
-        {base.title}
+        {data.title}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 max-w-3xl w-full">
-        {base.items.map((item, i) => (
+        {data.items.map((item, i) => (
           <div key={i} className="flex items-start space-x-4">
             <div className="bg-white flex items-center justify-center w-20 h-20 rounded">
               <Image

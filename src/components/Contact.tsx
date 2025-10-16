@@ -1,10 +1,31 @@
 "use client";
 import React, { useState } from "react";
 
-const Contact = () => {
-  const [status, setStatus] = useState<
-    "idle" | "loading" | "success" | "error"
-  >("idle");
+// =============================
+// 🔹 型定義
+// =============================
+type ContactForm = {
+  name: string;
+  furigana: string;
+  email: string;
+  message: string;
+  submit: string;
+};
+
+type ContactData = {
+  title: string;
+  form: ContactForm;
+};
+
+type ContactProps = {
+  data: ContactData;
+};
+
+// =============================
+// 🔹 コンポーネント本体
+// =============================
+const Contact = ({ data }: ContactProps) => {
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -12,13 +33,13 @@ const Contact = () => {
 
     const form = e.currentTarget;
     const formData = new FormData(form);
-    const data = Object.fromEntries(formData.entries());
+    const sendData = Object.fromEntries(formData.entries());
 
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        body: JSON.stringify(sendData),
       });
 
       const result = await res.json();
@@ -34,19 +55,20 @@ const Contact = () => {
     }
   };
 
+  const f = data.form;
+
   return (
     <section id="contact" className="py-12 flex flex-col items-center">
       <h2 className="text-white text-2xl font-semibold mb-2 border-b border-white pb-1">
-        Contact
+        {data.title}
       </h2>
 
-      {/* 🔽 Formspreeの見た目そのまま */}
       <form
         onSubmit={handleSubmit}
         className="flex flex-col items-center w-full max-w-md mt-8 space-y-4"
       >
         <div className="w-full">
-          <label className="block text-white text-sm mb-1">名前</label>
+          <label className="block text-white text-sm mb-1">{f.name}</label>
           <input
             type="text"
             name="name"
@@ -56,18 +78,16 @@ const Contact = () => {
         </div>
 
         <div className="w-full">
-          <label className="block text-white text-sm mb-1">フリガナ</label>
+          <label className="block text-white text-sm mb-1">{f.furigana}</label>
           <input
             type="text"
-            name="kana"
+            name="furigana"
             className="w-full bg-gray-300 rounded px-3 py-2 outline-none"
           />
         </div>
 
         <div className="w-full">
-          <label className="block text-white text-sm mb-1">
-            メールアドレス
-          </label>
+          <label className="block text-white text-sm mb-1">{f.email}</label>
           <input
             type="email"
             name="email"
@@ -77,9 +97,7 @@ const Contact = () => {
         </div>
 
         <div className="w-full">
-          <label className="block text-white text-sm mb-1">
-            お問い合わせ内容
-          </label>
+          <label className="block text-white text-sm mb-1">{f.message}</label>
           <textarea
             name="message"
             rows={5}
@@ -88,16 +106,12 @@ const Contact = () => {
           />
         </div>
 
-        <p className="text-sm text-gray-400">
-          ※いたずらメール防止のためにIPアドレスを取得しています。
-        </p>
-
         <button
           type="submit"
           disabled={status === "loading"}
           className="bg-gray-300 text-black px-6 py-1 rounded mt-2 hover:bg-gray-400 transition disabled:opacity-50"
         >
-          {status === "loading" ? "送信中..." : "送信"}
+          {status === "loading" ? "送信中..." : f.submit}
         </button>
 
         {status === "success" && (
