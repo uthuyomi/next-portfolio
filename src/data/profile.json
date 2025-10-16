@@ -1,0 +1,104 @@
+{
+  "ja": {
+    "hero": {
+      "name": "安崎 海星",
+      "role": "Front-end Engineer / Coder / Content Creator",
+      "description": "北海道札幌市を拠点に、Next.js・WordPress・Tailwind CSSを中心としたWeb制作と構造設計を行っています。デザインと意味構造の両立をテーマに、実務と思想の中間領域で活動しています。",
+      "image": "/images/profile.png"
+    },
+    "skills": {
+      "title": "Skills & Tech Stack",
+      "categories": [
+        {
+          "name": "Frontend",
+          "items": "Next.js / React / TypeScript / Tailwind CSS"
+        },
+        {
+          "name": "CMS",
+          "items": "WordPress / PHP / REST API Integration"
+        },
+        {
+          "name": "Design",
+          "items": "Figma / XD / Photoshop"
+        },
+        {
+          "name": "Other",
+          "items": "Git / Node.js / Python（OpenAI API, Flask）"
+        }
+      ]
+    },
+    "works": {
+      "title": "Works & Projects",
+      "projects": [
+        {
+          "name": "AI Visualization Project",
+          "description": "ChatGPTの思考構造をThree.jsで可視化するReactツール。",
+          "linkText": "View on GitHub →",
+          "linkUrl": "https://github.com/uthuyomi/GPT-in-Universe"
+        },
+        {
+          "name": "WordPress Theme: \"Semplice Clone\"",
+          "description": "自作テーマによるレスポンシブLP構築。Z型レイアウト＋軽量設計。",
+          "linkText": "Demo Page →",
+          "linkUrl": "#"
+        }
+      ]
+    },
+    "vision": {
+      "title": "Vision",
+      "paragraph1": "コードを書くことは、構造をデザインすること。人が使いやすく、AIが理解しやすいインターフェースを作ることを目的としています。",
+      "paragraph2": "技術と感性の境界で「意味が通る設計」を探求し、見た目だけでなく、データや言語の構造まで意識した開発を行っています。"
+    }
+  },
+  "en": {
+    "hero": {
+      "name": "Kaisei Yasuzaki",
+      "role": "Front-end Engineer / Coder / Content Creator",
+      "description": "Based in Sapporo, Japan. I specialize in web development and structural design using Next.js, WordPress, and Tailwind CSS. My focus is on harmonizing design and meaning, working in the intersection between practical implementation and conceptual thought.",
+      "image": "/profile.png"
+    },
+    "skills": {
+      "title": "Skills & Tech Stack",
+      "categories": [
+        {
+          "name": "Frontend",
+          "items": "Next.js / React / TypeScript / Tailwind CSS"
+        },
+        {
+          "name": "CMS",
+          "items": "WordPress / PHP / REST API Integration"
+        },
+        {
+          "name": "Design",
+          "items": "Figma / XD / Photoshop"
+        },
+        {
+          "name": "Other",
+          "items": "Git / Node.js / Python (OpenAI API, Flask)"
+        }
+      ]
+    },
+    "works": {
+      "title": "Works & Projects",
+      "projects": [
+        {
+          "name": "AI Visualization Project",
+          "description": "A React tool that visualizes ChatGPT's reasoning structure using Three.js.",
+          "linkText": "View on GitHub →",
+          "linkUrl": "https://github.com/uthuyomi/GPT-in-Universe"
+        },
+        {
+          "name": "WordPress Theme: \"Semplice Clone\"",
+          "description": "Responsive LP built with a custom theme. Lightweight design with a Z-shaped layout.",
+          "linkText": "Demo Page →",
+          "linkUrl": "#"
+        }
+      ]
+    },
+    "vision": {
+      "title": "Vision",
+      "paragraph1": "Writing code means designing structure. My goal is to create interfaces that are easy for humans to use and intuitive for AI to understand.",
+      "paragraph2": "Exploring the boundary between technology and sensibility, I focus on meaningful design — development that considers not only appearance but also data and linguistic structures."
+    }
+  }
+}
