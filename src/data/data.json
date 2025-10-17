@@ -15,7 +15,7 @@
       ]
     },
     "skills": {
-      "title": "SKILL",
+      "title": "Skill",
       "items": [
         {
           "icon": "/images/skill-icon/html.png",
@@ -103,7 +103,7 @@
       ]
     },
     "skills": {
-      "title": "SKILL",
+      "title": "Skill",
       "items": [
         {
           "icon": "/images/skill-icon/html.png",
@@ -144,6 +144,23 @@
           "icon": "/images/skill-icon/wordpress.png",
           "title": "WordPress",
           "description": "Builds editable and scalable business, media, and corporate sites with flexibility."
+        }
+      ]
+    },
+    "service": {
+      "title": "Service",
+      "items": [
+        {
+          "title": "Web Development",
+          "description": "Full coverage from design to implementation. Supports both static and dynamic sites."
+        },
+        {
+          "title": "WordPress Development",
+          "description": "Original theme creation, Gutenberg compatibility, migration and maintenance."
+        },
+        {
+          "title": "Responsive Optimization",
+          "description": "UI optimization and performance tuning across all devices."
         }
       ]
     },

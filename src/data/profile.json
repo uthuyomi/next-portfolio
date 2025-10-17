@@ -2,8 +2,8 @@
   "ja": {
     "hero": {
       "name": "安崎 海星",
-      "role": "Front-end Engineer / Coder / Content Creator",
-      "description": "北海道札幌市を拠点に、Next.js・WordPress・Tailwind CSSを中心としたWeb制作と構造設計を行っています。デザインと意味構造の両立をテーマに、実務と思想の中間領域で活動しています。",
+      "role": "Front-end Engineer / Coder",
+      "description": "北海道札幌市を拠点に、Next.js・WordPress・Tailwind CSSを用いたフロントエンド開発を行っています。設計段階から実装までを一貫して担当し、保守性・再利用性の高いUI構築を重視しています。",
       "image": "/images/home/profile.png"
     },
     "skills": {
@@ -32,13 +32,13 @@
       "projects": [
         {
           "name": "AI Visualization Project",
-          "description": "ChatGPTの思考構造をThree.jsで可視化するReactツール。",
+          "description": "ChatGPTの出力構造をThree.jsで可視化するReactベースのツール。データ構造とUIの関係を分析的に設計。",
           "linkText": "View on GitHub →",
           "linkUrl": "https://github.com/uthuyomi/GPT-in-Universe"
         },
         {
           "name": "WordPress Theme: \"Semplice Clone\"",
-          "description": "自作テーマによるレスポンシブLP構築。Z型レイアウト＋軽量設計。",
+          "description": "オリジナルテーマで構築したレスポンシブLP。Z型レイアウト・軽量設計・Gutenberg対応を実装。",
           "linkText": "Demo Page →",
           "linkUrl": "#"
         }
@@ -46,15 +46,15 @@
     },
     "vision": {
       "title": "Vision",
-      "paragraph1": "コードを書くことは、構造をデザインすること。人が使いやすく、AIが理解しやすいインターフェースを作ることを目的としています。",
-      "paragraph2": "技術と感性の境界で「意味が通る設計」を探求し、見た目だけでなく、データや言語の構造まで意識した開発を行っています。"
+      "paragraph1": "フロントエンドとは、技術とデザインの接点を設計する仕事です。コードの整合性・再利用性を保ちつつ、ユーザー体験を最適化することを目指しています。",
+      "paragraph2": "トレンドよりも構造を重視し、実装者としての視点からUIを再構築していく。表層的な美しさではなく、意味の通るコードと動作に価値を置いています。"
     }
   },
   "en": {
     "hero": {
       "name": "Kaisei Yasuzaki",
-      "role": "Front-end Engineer / Coder / Content Creator",
-      "description": "Based in Sapporo, Japan. I specialize in web development and structural design using Next.js, WordPress, and Tailwind CSS. My focus is on harmonizing design and meaning, working in the intersection between practical implementation and conceptual thought.",
+      "role": "Front-end Engineer / Coder",
+      "description": "Based in Sapporo, Japan. I specialize in front-end development with Next.js, WordPress, and Tailwind CSS. I handle both design and implementation, focusing on building maintainable and reusable UI components.",
       "image": "/images/home/profile.png"
     },
     "skills": {
@@ -83,13 +83,13 @@
       "projects": [
         {
           "name": "AI Visualization Project",
-          "description": "A React tool that visualizes ChatGPT's reasoning structure using Three.js.",
+          "description": "A React-based visualization tool using Three.js to map ChatGPT’s output structure. Designed for analyzing the relationship between data and UI.",
           "linkText": "View on GitHub →",
           "linkUrl": "https://github.com/uthuyomi/GPT-in-Universe"
         },
         {
           "name": "WordPress Theme: \"Semplice Clone\"",
-          "description": "Responsive LP built with a custom theme. Lightweight design with a Z-shaped layout.",
+          "description": "Responsive LP built with an original WordPress theme. Implements a Z-layout, lightweight design, and Gutenberg compatibility.",
           "linkText": "Demo Page →",
           "linkUrl": "#"
         }
@@ -97,8 +97,8 @@
     },
     "vision": {
       "title": "Vision",
-      "paragraph1": "Writing code means designing structure. My goal is to create interfaces that are easy for humans to use and intuitive for AI to understand.",
-      "paragraph2": "Exploring the boundary between technology and sensibility, I focus on meaningful design — development that considers not only appearance but also data and linguistic structures."
+      "paragraph1": "Front-end engineering is the art of designing the intersection between technology and design. I aim to build user experiences that balance clean structure with flexibility and reusability.",
+      "paragraph2": "Rather than chasing trends, I focus on logical structure and readability — valuing code that conveys meaning and design that performs elegantly in implementation."
     }
   }
 }

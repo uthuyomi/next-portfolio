@@ -1,18 +1,30 @@
 import React from "react";
 import data from "../data/data.json";
 
-const Service = () => {
-  const base = data.ja.service;
+type ItemData = {
+  title: string;
+  description: string;
+};
 
+type ServiceData = {
+  title: string,
+  items: ItemData[]
+}
+
+type ServiceProps = {
+  data: ServiceData;
+}
+
+const Service = ({ data }: ServiceProps) => {
   return (
-    <section
-      className="w-full py-12 flex flex-col items-center mb-20 pt-30"
-    >
-      <h2 className="text-white text-2xl font-semibold mb-8">{base.title}</h2>
+    <section className="w-full py-12 flex flex-col items-center mb-20 pt-30">
+      <h2 className="text-white text-2xl md:text-3xl font-semibold tracking-wide border-b border-gray-600 pb-2 mb-10">
+        {data.title}
+      </h2>
 
       {/* ✅ カード3枚横並び（モバイル1列、タブレット以上3列） */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl w-full px-6">
-        {base.items.map((item, i) => (
+        {data.items.map((item, i) => (
           <div
             key={i}
             className="group rounded-2xl border border-gray-700 bg-gray-800/70 p-5 hover:border-teal-400 transition-colors"

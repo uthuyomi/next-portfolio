@@ -24,7 +24,7 @@ const Skills = ({ data }: SkillsProps) => {
       className={`${style.Skills} w-full bg-gray-900 py-16 flex flex-col items-center mb-20`}
     >
       {/* タイトル */}
-      <h2 className="text-white text-2xl md:text-3xl font-semibold tracking-wide mb-10">
+      <h2 className="text-white text-2xl md:text-3xl font-semibold tracking-wide border-b border-gray-600 pb-2 mb-10">
         {data.title}
       </h2>
 

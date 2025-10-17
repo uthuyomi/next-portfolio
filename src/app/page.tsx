@@ -18,7 +18,7 @@ const Home = ({ lang = "ja" }: { lang?: "ja" | "en" }) => {
       <Particle />
       <main className="relative z-20">
         <Hero data={base.about} />
-        <Service />
+        <Service data={base.service} />
         <Skills data={base.skills} />
         <Contact data={base.contact} />
       </main>

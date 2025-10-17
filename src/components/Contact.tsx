@@ -62,7 +62,7 @@ const Contact = ({ data }: ContactProps) => {
       id="contact"
       className="py-12 flex flex-col items-center pl-10 pr-10"
     >
-      <h2 className="text-white text-2xl font-semibold mb-2 border-b border-white pb-1">
+      <h2 className="text-white text-2xl md:text-3xl font-semibold tracking-wide border-b border-gray-600 pb-2 mb-10">
         {data.title}
       </h2>
 
