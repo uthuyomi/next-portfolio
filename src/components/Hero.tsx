@@ -21,7 +21,7 @@ type HeroProps = {
 
 const Hero = ({ data }: HeroProps ) => {
   return (
-    <section className={`${style.Hero} flex flex-col items-center py-12`}>
+    <section className={`${style.Hero} flex flex-col items-center py-12 pt-40`}>
       <h2 className="text-white text-2xl font-semibold mb-2 border-b border-white pb-1">
         {data.title}
       </h2>

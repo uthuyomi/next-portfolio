@@ -30,7 +30,7 @@ export default function Home({ lang = "ja" }: { lang?: "ja" | "en" }) {
     <>
       <Header onLangChange={setCurrentLang} />
       <Particle />
-      <main className="relative z-20 pl-5 pr-5">
+      <main className="relative z-20 pt-30 pl-5 pr-5">
         <div className="py-12 flex flex-col items-center gap-10">
           {/* ✅ 各テーブルを順に描画 */}
           {Object.entries(priceTables).map(([key, table]) => (

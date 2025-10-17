@@ -14,7 +14,7 @@ const Page = ({ lang = "ja" }: { lang?: "ja" | "en" }) => {
       <Header onLangChange={setCurrentLang} />
       <Particle />
 
-      <main className="relative z-20 pl-5 pr-5">
+      <main className="relative z-20 pt-30 pl-5 pr-5">
         {/* Hero */}
         <section className="py-20 flex flex-col items-center text-center">
           <div className="w-40 h-40 mb-6">

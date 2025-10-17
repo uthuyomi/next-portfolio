@@ -1,5 +1,5 @@
 .slide-left {
-    left: -63px;
+    left: -100px;
   .slide-pc {
     position: relative;
     .slideOuter {
@@ -62,14 +62,18 @@
     }
   }
   .slideText {
-    left: 126px;
+    left: 200px;
     ul {
-      padding-left: 70%;
+      padding-left: 60%;
+      li{
+        width: 100%;
+        text-align: center;
+      }
     }
   }
 }
 .slide-right {
-    left: 63px;
+    left: 100px;
   .slide-pc {
     position: relative;
     .slideOuter {
@@ -132,10 +136,13 @@
     }
   }
   .slideText {
-    left: -126px;
+    left: -200px;
     ul {
-      padding-right: 67%;
-      padding-left: 15px;
+      padding-right: 60%;
+      li{
+        width: 100%;
+        text-align: center;
+      }
     }
   }
 }

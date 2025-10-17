@@ -1,12 +1,17 @@
-import React from 'react';
+"use client";
+import React from "react";
 
-type tableProps = {
-    title: string;
-    header: string[];
-    rows: string[][];
+type TableData = {
+  title: string;
+  header: string[];
+  rows: string[][];
 };
 
-const table = ({data}: tableProps) => {
+type TableProps = {
+  data: TableData; // ✅ dataを含める
+};
+
+const Table = ({ data }: TableProps) => {
   return (
     <>
       <h3 className="text-white text-2xl font-semibold mb-2 pt-7 pb-5">
@@ -42,6 +47,6 @@ const table = ({data}: tableProps) => {
       </table>
     </>
   );
-}
+};
 
-export default table
+export default Table;
