@@ -90,7 +90,7 @@
   "en": {
     "about": {
       "title": "About",
-      "image": "/images/profile.png",
+      "image": "/images/home/profile.png",
       "name": "Kaisei Yasuzaki",
       "description": [
         "I’m a Sapporo-based web developer and content creator specializing in front-end development and digital storytelling.",
