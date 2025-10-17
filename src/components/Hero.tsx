@@ -22,7 +22,7 @@ type HeroProps = {
 const Hero = ({ data }: HeroProps) => {
   return (
     <section
-      className={`${style.Hero} w-full bg-gray-900 py-20 flex flex-col items-center text-center md:text-left`}
+      className={`${style.Hero} w-full bg-gray-900 py-20 flex flex-col items-center text-center md:text-left pt-44`}
     >
       {/* タイトル */}
       <h2 className="text-white text-2xl md:text-3xl font-semibold tracking-wide border-b border-gray-600 pb-2 mb-10">
