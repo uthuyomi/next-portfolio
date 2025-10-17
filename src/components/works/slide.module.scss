@@ -1,5 +1,5 @@
 .slide-left {
-    left: -100px;
+  left: -100px;
   .slide-pc {
     position: relative;
     .slideOuter {
@@ -65,7 +65,7 @@
     left: 200px;
     ul {
       padding-left: 60%;
-      li{
+      li {
         width: 100%;
         text-align: center;
       }
@@ -73,7 +73,7 @@
   }
 }
 .slide-right {
-    left: 100px;
+  left: 100px;
   .slide-pc {
     position: relative;
     .slideOuter {
@@ -139,9 +139,96 @@
     left: -200px;
     ul {
       padding-right: 60%;
-      li{
+      li {
         width: 100%;
         text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .slide-left,
+  .slide-right {
+    left: 0 !important; /* PCズレをリセット */
+    max-width: 600px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .slide-pc {
+      width: 100%;
+      position: relative;
+      .slideOuter {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 10;
+      }
+      .slideInner {
+        position: absolute;
+        width: 59.5%;
+        height: 56%;
+        top: 17%;
+        left: 20%;
+        overflow-y: scroll;
+        z-index: 20;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE/Edge 古いバージョン */
+        &::-webkit-scrollbar {
+          display: none; /* Chrome, Safari, Opera */
+        }
+        img {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .slide-sp {
+      width: 100%;
+      position: relative;
+      .slideOuter {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 10;
+      }
+      .slideInner {
+        position: absolute;
+        width: 28%;
+        height: 89%;
+        top: 5%;
+        left: 36%;
+        overflow-y: scroll;
+        z-index: 20;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE/Edge 古いバージョン */
+        border-radius: 10%;
+        &::-webkit-scrollbar {
+          display: none; /* Chrome, Safari, Opera */
+        }
+        img {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .slideText {
+      width: 100%;
+      position: relative;
+      left: 0 !important;
+      text-align: center;
+      ul {
+        padding: 0;
+        li {
+          text-align: center;
+        }
       }
     }
   }

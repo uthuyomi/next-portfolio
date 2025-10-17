@@ -4,7 +4,7 @@
       "name": "安崎 海星",
       "role": "Front-end Engineer / Coder / Content Creator",
       "description": "北海道札幌市を拠点に、Next.js・WordPress・Tailwind CSSを中心としたWeb制作と構造設計を行っています。デザインと意味構造の両立をテーマに、実務と思想の中間領域で活動しています。",
-      "image": "/images/profile.png"
+      "image": "/images/home/profile.png"
     },
     "skills": {
       "title": "Skills & Tech Stack",
@@ -55,7 +55,7 @@
       "name": "Kaisei Yasuzaki",
       "role": "Front-end Engineer / Coder / Content Creator",
       "description": "Based in Sapporo, Japan. I specialize in web development and structural design using Next.js, WordPress, and Tailwind CSS. My focus is on harmonizing design and meaning, working in the intersection between practical implementation and conceptual thought.",
-      "image": "/profile.png"
+      "image": "/images/home/profile.png"
     },
     "skills": {
       "title": "Skills & Tech Stack",

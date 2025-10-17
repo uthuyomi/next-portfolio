@@ -2,7 +2,7 @@
   "ja": {
     "about": {
       "title": "About",
-      "image": "/images/profile.png",
+      "image": "/images/home/profile.png",
       "name": "安崎 海星",
       "description": [
         "札幌を拠点にWeb制作・フロントエンド開発・文章コンテンツ制作を行っています。",
@@ -56,6 +56,23 @@
           "icon": "/images/skill-icon/wordpress.png",
           "title": "WordPress",
           "description": "企業サイト・店舗サイト・メディアサイトなど、更新しやすく拡張性のある構成を制作します。"
+        }
+      ]
+    },
+    "service": {
+      "title": "Service",
+      "items": [
+        {
+          "title": "Web制作",
+          "description": "デザイン〜実装まで一貫対応。静的/動的ともに可。"
+        },
+        {
+          "title": "WordPress構築",
+          "description": "オリジナルテーマ、Gutenberg対応、移行・保守。"
+        },
+        {
+          "title": "レスポンシブ最適化",
+          "description": "全端末でのUI最適化・パフォーマンス調整。"
         }
       ]
     },

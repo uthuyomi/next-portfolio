@@ -58,7 +58,10 @@ const Contact = ({ data }: ContactProps) => {
   const f = data.form;
 
   return (
-    <section id="contact" className="py-12 flex flex-col items-center">
+    <section
+      id="contact"
+      className="py-12 flex flex-col items-center pl-10 pr-10"
+    >
       <h2 className="text-white text-2xl font-semibold mb-2 border-b border-white pb-1">
         {data.title}
       </h2>
