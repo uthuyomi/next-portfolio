@@ -23,7 +23,7 @@
         },
         {
           "name": "Other",
-          "items": "Git / Node.js / Python（OpenAI API, Flask）"
+          "items": "Git / Python（OpenAI API, Flask）"
         }
       ]
     },
@@ -37,10 +37,10 @@
           "linkUrl": "https://github.com/uthuyomi/GPT-in-Universe"
         },
         {
-          "name": "WordPress Theme: \"Semplice Clone\"",
-          "description": "オリジナルテーマで構築したレスポンシブLP。Z型レイアウト・軽量設計・Gutenberg対応を実装。",
-          "linkText": "Demo Page →",
-          "linkUrl": "#"
+          "name": "Headless CMS Site (Next.js × WordPress)",
+          "description": "Next.jsとWordPress REST APIで構築したヘッドレスCMSサイト。動的ルーティング・SSG/ISR対応・軽量レスポンシブ設計を実装。",
+          "linkText": "View Site →",
+          "linkUrl": "https://next-js-study-git-main-uthuyomis-projects.vercel.app/"
         }
       ]
     },
@@ -74,7 +74,7 @@
         },
         {
           "name": "Other",
-          "items": "Git / Node.js / Python (OpenAI API, Flask)"
+          "items": "Git / Python (OpenAI API, Flask)"
         }
       ]
     },
@@ -88,10 +88,10 @@
           "linkUrl": "https://github.com/uthuyomi/GPT-in-Universe"
         },
         {
-          "name": "WordPress Theme: \"Semplice Clone\"",
-          "description": "Responsive LP built with an original WordPress theme. Implements a Z-layout, lightweight design, and Gutenberg compatibility.",
-          "linkText": "Demo Page →",
-          "linkUrl": "#"
+          "name": "Headless CMS: Next.js × WordPress",
+          "description": "A headless CMS site built with Next.js and the WordPress REST API. Features dynamic routing, SSG/ISR support, and a lightweight responsive design.",
+          "linkText": "View Site →",
+          "linkUrl": "https://next-js-study-git-main-uthuyomis-projects.vercel.app/"
         }
       ]
     },
