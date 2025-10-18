@@ -1,19 +1,21 @@
 import React from "react";
 import data from "../data/data.json";
+import Image from "next/image";
 
 type ItemData = {
   title: string;
+  image: string;
   description: string;
 };
 
 type ServiceData = {
-  title: string,
-  items: ItemData[]
-}
+  title: string;
+  items: ItemData[];
+};
 
 type ServiceProps = {
   data: ServiceData;
-}
+};
 
 const Service = ({ data }: ServiceProps) => {
   return (
@@ -31,7 +33,13 @@ const Service = ({ data }: ServiceProps) => {
           >
             {/* ✅ 白い画像プレースホルダー */}
             <div className="mb-4">
-              <div className="w-full aspect-[4/3] rounded-xl bg-white/95 shadow-sm ring-1 ring-white/40" />
+              <Image
+                className="w-full object-cover aspect-[6/5] rounded-xl bg-white/95 shadow-sm ring-1 ring-white/40"
+                src={item.image}
+                alt="カード"
+                width={100}
+                height={100}
+              />
             </div>
 
             {/* ✅ タイトルと説明 */}

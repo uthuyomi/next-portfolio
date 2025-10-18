@@ -64,14 +64,17 @@
       "items": [
         {
           "title": "Web制作",
+          "image": "/images/home/card01.png",
           "description": "デザイン〜実装まで一貫対応。静的/動的ともに可。"
         },
         {
           "title": "WordPress構築",
+          "image": "/images/home/card02.png",
           "description": "オリジナルテーマ、Gutenberg対応、移行・保守。"
         },
         {
           "title": "レスポンシブ最適化",
+          "image": "/images/home/card03.png",
           "description": "全端末でのUI最適化・パフォーマンス調整。"
         }
       ]
@@ -152,14 +155,17 @@
       "items": [
         {
           "title": "Web Development",
+          "image": "/images/home/card01.png",
           "description": "Full coverage from design to implementation. Supports both static and dynamic sites."
         },
         {
           "title": "WordPress Development",
+          "image": "/images/home/card02.png",
           "description": "Original theme creation, Gutenberg compatibility, migration and maintenance."
         },
         {
           "title": "Responsive Optimization",
+          "image": "/images/home/card03.png",
           "description": "UI optimization and performance tuning across all devices."
         }
       ]
