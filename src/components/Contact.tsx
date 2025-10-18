@@ -76,7 +76,7 @@ const Contact = ({ data }: ContactProps) => {
             type="text"
             name="name"
             required
-            className="w-full bg-gray-300 rounded px-3 py-2 outline-none"
+            className="w-full text-black bg-gray-300 rounded px-3 py-2 outline-none"
           />
         </div>
 
@@ -85,7 +85,7 @@ const Contact = ({ data }: ContactProps) => {
           <input
             type="text"
             name="furigana"
-            className="w-full bg-gray-300 rounded px-3 py-2 outline-none"
+            className="w-full text-black bg-gray-300 rounded px-3 py-2 outline-none"
           />
         </div>
 
@@ -95,7 +95,7 @@ const Contact = ({ data }: ContactProps) => {
             type="email"
             name="email"
             required
-            className="w-full bg-gray-300 rounded px-3 py-2 outline-none"
+            className="w-full text-black bg-gray-300 rounded px-3 py-2 outline-none"
           />
         </div>
 
@@ -105,7 +105,7 @@ const Contact = ({ data }: ContactProps) => {
             name="message"
             rows={5}
             required
-            className="w-full bg-gray-300 rounded px-3 py-2 outline-none resize-none"
+            className="w-full text-black bg-gray-300 rounded px-3 py-2 outline-none resize-none"
           />
         </div>
 

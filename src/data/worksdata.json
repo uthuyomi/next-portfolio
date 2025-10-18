@@ -2,46 +2,49 @@
   "slide01": {
     "pcimg": "/images/works/portfolio/inner-img00-pc.png",
     "spimg": "/images/works/portfolio/inner-img00-sp.png",
-    "skill": ["Next.js", "TypeScript", "React", "SCSS", "Vercel"]
+    "link": "https://next-js-study-git-main-uthuyomis-projects.vercel.app/",
+    "skill": ["JavaScript", "React.js", "Next.js", "TypeScript"]
   },
   "slide02": {
     "pcimg": "/images/works/portfolio/inner-img01-pc.jpg",
     "spimg": "/images/works/portfolio/inner-img01-sp.jpg",
-    "skill": ["Next.js", "TypeScript", "React", "SCSS", "Vercel"]
+    "link": "https://webyayasu.sakura.ne.jp/portfolio/porenai-LP/porenai03/index.html",
+    "skill": ["HTML", "CSS", "JavaScript", "figma"]
   },
   "slide03": {
     "pcimg": "/images/works/portfolio/inner-img02-pc.jpg",
     "spimg": "/images/works/portfolio/inner-img02-sp.jpg",
-    "skill": ["Next.js", "TypeScript", "React", "SCSS", "Vercel"]
+    "link": "https://webyayasu.sakura.ne.jp/bousai-LP/index.html",
+    "skill": ["HTML", "CSS", "JavaScript", "figma"]
   },
   "slide04": {
     "pcimg": "/images/works/portfolio/inner-img03-pc.jpg",
     "spimg": "/images/works/portfolio/inner-img03-pc.jpg",
-    "skill": ["Next.js", "TypeScript", "React", "SCSS", "Vercel"]
+    "link": "https://webyayasu.sakura.ne.jp/portfolio/zyuutaku-LP/LP-left/html/LP1.html",
+    "skill": ["HTML", "CSS", "PhotoShop"]
   },
   "slide05": {
     "pcimg": "/images/works/portfolio/inner-img04-pc.png",
     "spimg": "/images/works/portfolio/inner-img04-sp.png",
-    "skill": ["Next.js", "TypeScript", "React", "SCSS", "Vercel"]
+    "link": "https://webyayasu.sakura.ne.jp/portfolio/1R/index.html",
+    "skill": ["HTML", "CSS", "JavaScript", "PhotoShop"]
   },
   "slide06": {
     "pcimg": "/images/works/portfolio/inner-img05-pc.png",
     "spimg": "/images/works/portfolio/inner-img05-sp.png",
-    "skill": ["Next.js", "TypeScript", "React", "SCSS", "Vercel"]
+    "link": "https://webyayasu.sakura.ne.jp/portfolio/kanri-LP/index.html",
+    "skill": ["HTML", "CSS", "PhotoShop"]
   },
   "slide07": {
     "pcimg": "/images/works/portfolio/inner-img06-pc.jpg",
     "spimg": "/images/works/portfolio/inner-img06-sp.jpg",
-    "skill": ["Next.js", "TypeScript", "React", "SCSS", "Vercel"]
+    "link": "https://webyayasu.sakura.ne.jp/portfolio/coding-sample01/index.html",
+    "skill": ["HTML", "CSS", "javascript", "XD"]
   },
   "slide08": {
     "pcimg": "/images/works/portfolio/inner-img07-pc.jpg",
     "spimg": "/images/works/portfolio/inner-img07-sp.jpg",
-    "skill": ["Next.js", "TypeScript", "React", "SCSS", "Vercel"]
-  },
-  "slide09": {
-    "pcimg": "/images/works/portfolio/inner-img08-pc.png",
-    "spimg": "/images/works/portfolio/inner-img08-sp.png",
-    "skill": ["Next.js", "TypeScript", "React", "SCSS", "Vercel"]
+    "link": "https://webyayasu.sakura.ne.jp/portfolio/coding-sample02/html/index.html",
+    "skill": ["HTML", "CSS", "JavaScript", "XD"]
   }
 }
