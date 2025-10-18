@@ -97,18 +97,7 @@ const Slide = ({ data, align = "left" }: SlideProps) => {
           <li>
             <Link
               href={data.link}
-              className="
-    inline-flex items-center justify-center gap-2 rounded-lg
-  bg-white/95 text-slate-900 font-medium
-    px-6 py-2
-    shadow-[0_4px_12px_rgba(255,255,255,0.1)]
-    ring-1 ring-white/40 backdrop-blur-sm
-    transition-all duration-200
-    hover:bg-white hover:shadow-[0_0_14px_rgba(0,255,255,0.25)]
-    hover:-translate-y-[1px]
-    active:translate-y-[1px]
-    mt-5
-  "
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-white/95 text-slate-900 font-medium px-6 py-2 shadow-[0_4px_12px_rgba(255,255,255,0.1)] ring-1 ring-white/40 backdrop-blur-sm transition-all duration-200 hover:bg-white hover:shadow-[0_0_14px_rgba(0,255,255,0.25)] hover:-translate-y-[1px] active:translate-y-[1px] mt-5"
             >
               more
             </Link>
