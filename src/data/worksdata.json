@@ -34,17 +34,5 @@
     "spimg": "/images/works/portfolio/inner-img05-sp.png",
     "link": "https://webyayasu.sakura.ne.jp/portfolio/kanri-LP/index.html",
     "skill": ["HTML", "CSS", "PhotoShop"]
-  },
-  "slide07": {
-    "pcimg": "/images/works/portfolio/inner-img06-pc.jpg",
-    "spimg": "/images/works/portfolio/inner-img06-sp.jpg",
-    "link": "https://webyayasu.sakura.ne.jp/portfolio/coding-sample01/index.html",
-    "skill": ["HTML", "CSS", "javascript", "XD"]
-  },
-  "slide08": {
-    "pcimg": "/images/works/portfolio/inner-img07-pc.jpg",
-    "spimg": "/images/works/portfolio/inner-img07-sp.jpg",
-    "link": "https://webyayasu.sakura.ne.jp/portfolio/coding-sample02/html/index.html",
-    "skill": ["HTML", "CSS", "JavaScript", "XD"]
   }
 }
