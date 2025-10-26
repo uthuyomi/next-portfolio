@@ -9,9 +9,16 @@
         "WordPressを中心に、React・Next.jsなどのモダン環境を用いたコーディング・設計にも対応可能です。デザインカンプからの正確な実装、SEO設計、UI/UX調整を得意としています。"
       ],
       "social": [
-        { "label": "X", "url": "/images/home/Xicon.svg" },
-        { "label": "Instagram", "url": "/images/home/instaicon.svg" },
-        { "label": "LinkedIn", "url": "/images/home/linkedin.png" }
+        {
+          "label": "X",
+          "url": "https://x.com/uthuyomi",
+          "img": "/images/home/social/x.png"
+        },
+        {
+          "label": "git",
+          "url": "https://github.com/uthuyomi",
+          "img": "/images/home/social/github.svg"
+        }
       ]
     },
     "skills": {
@@ -100,9 +107,16 @@
         "My work spans from precise WordPress theme development to modern front-end frameworks such as React and Next.js. I focus on semantic structure, responsive design, SEO optimization, and smooth user experience."
       ],
       "social": [
-        { "label": "X", "url": "/images/home/Xicon.svg" },
-        { "label": "Instagram", "url": "/images/home/instaicon.svg" },
-        { "label": "LinkedIn", "url": "/images/home/linkedin.png" }
+        {
+          "label": "X",
+          "url": "https://x.com/uthuyomi",
+          "img": "/images/home/social/x.png"
+        },
+        {
+          "label": "git",
+          "url": "https://github.com/uthuyomi",
+          "img": "/images/home/social/github.svg"
+        }
       ]
     },
     "skills": {

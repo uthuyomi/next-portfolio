@@ -5,6 +5,7 @@ import style from "./Hero.module.scss";
 type SocialLink = {
   label: string;
   url: string;
+  img: string;
 };
 
 type AboutData = {
@@ -70,7 +71,7 @@ const Hero = ({ data }: HeroProps) => {
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-white border border-gray-700 hover:border-teal-400 transition"
               >
                 <Image
-                  src={item.url}
+                  src={item.img}
                   alt={item.label}
                   width={24}
                   height={24}
