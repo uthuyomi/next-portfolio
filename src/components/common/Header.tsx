@@ -21,7 +21,7 @@ const Header = ({ onLangChange }: HeaderProps) => {
       <div className="flex justify-between items-center">
         {/* 左：タイトル */}
         <h1 className="text-white text-lg font-semibold tracking-wide">
-          yasuzaki kaisei
+          Yasuzaki Kaisei
         </h1>
 
         {/* 右：言語ボタン */}
